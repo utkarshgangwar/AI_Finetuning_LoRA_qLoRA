@@ -9,7 +9,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 BASE_MODEL = "microsoft/phi-1_5"
-ADAPTER_PATH = "models/adapters/lora_adp"
+# ADAPTER_PATH = "models/adapters/lora_adp" #LoRA
+ADAPTER_PATH = "models/adapters/qlora_adp" #qLoRA
 EVAL_FILE = "data/eval_questions.jsonl"
 
 
